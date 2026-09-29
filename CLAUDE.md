@@ -12,7 +12,7 @@ repository/
 ├── .apps.yml                 # repository-updater config (source repo mapping)
 ├── .github/workflows/
 │   └── repository-updater.yaml
-├── cortex-stt/               # currently the only stable app
+├── cortex-stt/               # one directory per app (also cortex-tts/)
 │   ├── config.yaml           # image: ghcr.io/hass-cortex/cortex_stt/{arch}
 │   ├── DOCS.md
 │   ├── CHANGELOG.md          # auto-generated
@@ -23,7 +23,7 @@ repository/
 
 ## Updates
 
-Source repos dispatch `repository_dispatch` events on release; `repository-updater.yaml` runs `hassio-addons/repository-updater@v1` to refresh the catalog.
+Source repos dispatch `repository_dispatch` events on release; `repository-updater.yaml` runs `hassio-addons/repository-updater@v2.0.1` to refresh the catalog.
 
 ## DO NOT Edit Manually
 
