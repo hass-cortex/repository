@@ -13,7 +13,7 @@ repository/
 ├── .github/workflows/
 │   └── repository-updater.yaml
 ├── cortex-stt/               # one directory per app (also cortex-tts/)
-│   ├── config.yaml           # image: ghcr.io/hass-cortex/cortex_stt/{arch}
+│   ├── config.yaml           # image: ghcr.io/hass-cortex/cortex_stt (multi-arch manifest)
 │   ├── DOCS.md
 │   ├── CHANGELOG.md          # auto-generated
 │   ├── icon.png
